@@ -131,3 +131,144 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    Diferencia observada: El nuevo contacto aparece en los resultados.
    Screenshot:![image](https://github.com/user-attachments/assets/b324692d-bf91-4977-ac54-9bc6bd054d9b)
 
+
+## Ejercicio 4: Trailhead
+1. Creación de usuario
+   - URL: https://trailhead.salesforce.com/
+   - Screenshot: ![image](https://github.com/user-attachments/assets/01138d58-5221-4a2e-9b23-d343c405d179)
+
+2. Cambio de idioma a ingles: ![image](https://github.com/user-attachments/assets/0193f7b8-6d68-48ee-91a7-c3c33967a23d)
+
+
+## Ejercicio 5: Objetos de Salesforce
+1. **Lead**
+   
+   **Concepto:** Un Lead representa un posible cliente o prospecto interesado en los productos o servicios de una empresa. Es el primer paso en el ciclo de ventas.
+   
+   **Datos que almacena:**
+   - Nombre
+   - Empresa
+   - Teléfono
+   - Correo electrónico
+   - Estado del Lead (Abierto, Contactado, Convertido, etc.)
+
+   **Relaciones:** Un Lead puede convertirse en una Account, Contact y Opportunity mediante el proceso de conversión.
+
+3. **Account**
+   
+   **Concepto:** Una Account representa una organización o empresa con la que la empresa tiene o puede tener una relación comercial.
+   
+   **Datos que almacena:**
+   - Nombre de la cuenta
+   - Dirección
+   - Industria
+   - Teléfono
+   - Sitio web
+
+   **Relaciones:** 
+   - Una Account puede tener muchos Contacts.
+   - Una Account puede estar relacionada con varias Opportunities.
+   - Puede tener Assets y Cases asociados.
+  
+4. **Contact**
+   
+   **Concepto:** Un Contact representa a una persona vinculada a una Account con la que la empresa tiene una relación.
+   
+   **Datos que almacena:**
+   - Nombre
+   - Apellido
+   - Teléfono
+   - Correo electrónico
+   - Puesto de trabajo
+
+   **Relaciones:**
+   - Un Contact está vinculado a una Account.
+   - Puede estar relacionado con Cases y Opportunities.
+
+5. **Opportunity**
+   
+   **Concepto:** Una Opportunity representa un posible negocio o venta en curso.
+   
+   **Datos que almacena:**
+   - Nombre de la oportunidad
+   - Fase de ventas
+   - Fecha de cierre
+   - Monto esperado
+   - Account asociada
+
+   **Relaciones:** 
+   - Una Opportunity está asociada a una Account.
+   - Puede tener Products relacionados.
+   - Puede generar Quotes.
+
+6. **Product**
+   
+   **Concepto:** Un Product representa un bien o servicio que la empresa ofrece a sus clientes.
+   
+   **Datos que almacena:**
+   - Nombre del producto
+   - Código de producto
+   - Precio
+   - Descripción
+
+   **Relaciones:** 
+   - Los Products se incluyen en PriceBooks.
+   - Se relacionan con Opportunities mediante OpportunityLineItems.
+
+7. **PriceBook**
+   
+   **Concepto:** Un PriceBook es un conjunto de precios para un grupo de Products.
+   
+   **Datos que almacena:**
+   - Nombre del PriceBook
+   - Activo (Sí/No)
+   - Description
+
+   **Relaciones:**
+   - Contiene Products con precios específicos.
+   - Asociado a Opportunities a través de los OpportunityLineItems.
+
+8. **Quote**
+   
+   **Concepto:** Un Quote representa una propuesta de precios que se envía a un cliente potencial.
+   
+   **Datos que almacena:**
+   - Nombre
+   - Precio total
+   - Fecha de vencimiento
+
+   **Relaciones:** Asociado a una Opportunity.
+
+9. **Asset**
+   
+   **Concepto:** Un Asset representa un producto adquirido por un cliente.
+   
+   **Datos que almacena:**
+   - Nombre del asset
+   - Account asociada
+   - Estado (Activo, Inactivo)
+
+   **Relaciones:** Relacionado con Accounts y Cases.
+
+10. **Case**
+   
+   **Concepto:** Un Case representa un problema o solicitud del cliente.
+   
+   **Datos que almacena:**
+   - Asunto
+   - Descripción
+   - Estado (Abierto, Cerrado)
+   - Prioridad
+
+   **Relaciones:** Asociado a Accounts y Contacts.
+
+11. **Article**
+   
+   **Concepto:** Un Article es una pieza de conocimiento utilizada para responder preguntas o resolver problemas.
+   
+   **Datos que almacena:**
+   - Título
+   - Contenido
+   - Categoría
+
+   **Relaciones:** No tiene relaciones directas con los demás objetos enumerados.
