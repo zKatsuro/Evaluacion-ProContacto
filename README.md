@@ -116,11 +116,18 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 
 2. **Request POST**  
+   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
    Body enviado:  
    ```json
    {
        "name": "Federico",
        "email": "Federico.Gomez@procontacto.com.mx"
    }
+   ```
    Screenshot: ![image](https://github.com/user-attachments/assets/f8e01277-c480-4de7-b118-a93122360e81)
+
+4. **Request GET final** 
+   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+   Diferencia observada: El nuevo contacto aparece en los resultados.
+   Screenshot:![image](https://github.com/user-attachments/assets/b324692d-bf91-4977-ac54-9bc6bd054d9b)
 
