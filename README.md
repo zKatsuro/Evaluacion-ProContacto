@@ -65,21 +65,21 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 5. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
   Es el código de estado que devuelve un servidor indicando el resultado de la solicitud. Ejemplos:
-   - 200: Éxito.
-   - 404: Recurso no encontrado.
-   - 500: Error interno del servidor.
-   - 301: Redirección permanente.
-   - 401: No autorizado.
+   - **200**: Éxito.
+   - **404**: Recurso no encontrado.
+   - **500**: Error interno del servidor.
+   - **301**: Redirección permanente.
+   - **401**: No autorizado.
   
 6. **¿Cómo se envía la data en un GET y cómo en un POST?**  
-   - GET: Los datos se envían como parte de la URL, generalmente en el queryString. 
-   - POST: Los datos se envían en el cuerpo de la solicitud, lo que permite mayor seguridad y soporte para grandes volúmenes de datos.
+   - **GET**: Los datos se envían como parte de la URL, generalmente en el queryString. 
+   - **POST**: Los datos se envían en el cuerpo de la solicitud, lo que permite mayor seguridad y soporte para grandes volúmenes de datos.
   
 7. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**  
-   El navegador utiliza el verbo GET.
+   El navegador utiliza el verbo **GET**.
   
 8. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
-   - JSON: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
+   - **JSON**: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
      Ejemplo:
      {
   "nombre": "Juan",
@@ -87,7 +87,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
   "activo": true
 }
       
-   - XML: Es un formato más rígido y estructurado para datos que utiliza etiquetas <></>.
+   - **XML**: Es un formato más rígido y estructurado para datos que utiliza etiquetas <></>.
      Ejemplo:
      <persona>
   <nombre>Juan</nombre>
@@ -103,20 +103,24 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
   
 11. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
    - Los headers son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
-   - Content-Type especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
+   - **Content-Type** especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
 ---
 
 ## Ejercicio 3: Uso de Postman
+   - [Descargar Postman](https://www.postman.com/downloads/).![image](https://github.com/user-attachments/assets/747d6a06-c080-419a-adb4-7e57bb445271)
 
 ### Resoluciones
 1. **Request GET inicial**  
-   URL: [https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json](https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json)  
-   Screenshot: ![GET Inicial](screenshots/get-inicial.png)
+   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
+   Screenshot: ![image](https://github.com/user-attachments/assets/ae11d124-c9f3-4d39-9985-e357ed05b222)
+
 
 2. **Request POST**  
    Body enviado:  
    ```json
    {
-       "name": "Tu Nombre",
-       "email": "tunombre.tuapellido@procontacto.com.mx"
+       "name": "Federico",
+       "email": "Federico.Gomez@procontacto.com.mx"
    }
+   Screenshot: ![image](https://github.com/user-attachments/assets/f8e01277-c480-4de7-b118-a93122360e81)
+
