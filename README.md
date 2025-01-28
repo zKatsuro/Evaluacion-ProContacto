@@ -60,7 +60,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 4. **¿Qué es un queryString? (En el contexto de una URL)**  
    Un queryString es la parte de la URL que contiene parámetros para enviar datos al servidor. Se encuentra después del signo ? y consiste en pares clave-valor separados por &.
-Ejemplo: https://example.com/search?query=libros&categoria=ficcion
+   Ejemplo: https://example.com/search?query=libros&categoria=ficcion
    
 
 5. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
@@ -78,12 +78,32 @@ Ejemplo: https://example.com/search?query=libros&categoria=ficcion
 7. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**  
    El navegador utiliza el verbo GET.
   
-8. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  
+8. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
    - JSON: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
-     Ejemplo: 
+     Ejemplo:
+     {
+  "nombre": "Juan",
+  "edad": 30,
+  "activo": true
+}
       
-   - Response: Respuesta que el servidor envía al cliente. Incluye los headers y el cuerpo.
+   - XML: Es un formato más rígido y estructurado para datos que utiliza etiquetas <></>.
+     Ejemplo:
+     <persona>
+  <nombre>Juan</nombre>
+  <edad>30</edad>
+  <activo>true</activo>
+</persona>
 
+9. **Explicar brevemente el estándar SOAP.**  
+   SOAP (Simple Object Access Protocol) es un protocolo basado en XML para intercambiar información estructurada en redes. Es más estricto que REST y define un conjunto de reglas estándar, generalmente usado en sistemas empresariales.
+  
+10. **Explicar brevemente el estándar REST Full.**  
+   REST (Representational State Transfer) es un estilo arquitectónico para desarrollar servicios web. Utiliza verbos HTTP (GET, POST, PUT, DELETE), URL para identificar recursos, y formatos como JSON o XML para enviar datos.
+  
+11. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
+   - Los headers son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
+   - Content-Type especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
 ---
 
 ## Ejercicio 3: Uso de Postman
