@@ -43,6 +43,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    Un servidor HTTP es un software o sistema que procesa solicitudes HTTP (protocolo utilizado para transferir información en la web) y envía respuestas al cliente, como un navegador web. Su función principal es servir contenido, como páginas HTML, archivos o datos en formato JSON.
 
 3. **¿Qué son los verbos HTTP?**
+
    Los verbos HTTP (o métodos) son acciones que se pueden realizar sobre un recurso. Los más conocidos son:
    - **GET:** Solicitar datos del servidor.
    - **POST:** Enviar datos al servidor (crear recursos).
@@ -50,17 +51,18 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - **DELETE:** Eliminar recursos.
    - **PATCH:** Actualizar parcialmente un recurso
 
-4. **¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+5. **¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+
    - **Request:** Es la solicitud que un cliente (por ejemplo, un navegador) envía al servidor, incluyendo método HTTP, URL y headers. 
    - **Response:** Es la respuesta del servidor que incluye un código de estado, headers y, opcionalmente, datos en el cuerpo.
    - **Headers:** Son metadatos que acompañan a las solicitudes y respuestas HTTP, proporcionando información como el formato del contenido o la autenticación requerida.
 
-5. **¿Qué es un queryString? (En el contexto de una URL)**  
+7. **¿Qué es un queryString? (En el contexto de una URL)**  
    Un queryString es la parte de la URL que contiene parámetros para enviar datos al servidor. Se encuentra después del signo ? y consiste en pares clave-valor separados por &.
    **Ejemplo:** https://example.com/search?query=libros&categoria=ficcion
    
 
-6. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
+8. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
   Es el código de estado que devuelve un servidor indicando el resultado de la solicitud. Ejemplos:
    - **200**: Éxito.
    - **404**: Recurso no encontrado.
@@ -68,14 +70,14 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - **301**: Redirección permanente.
    - **401**: No autorizado.
   
-7. **¿Cómo se envía la data en un GET y cómo en un POST?**  
+9. **¿Cómo se envía la data en un GET y cómo en un POST?**  
    - **GET**: Los datos se envían como parte de la URL, generalmente en el queryString. 
    - **POST**: Los datos se envían en el cuerpo de la solicitud, lo que permite mayor seguridad y soporte para grandes volúmenes de datos.
   
-8. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**  
+10. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**  
    El navegador utiliza el verbo **GET**.
   
-9. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
+11. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
    - **JSON**: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
      Ejemplo:
      {
@@ -92,13 +94,13 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
   <activo>true</activo>
 </persona>
 
-10. **Explicar brevemente el estándar SOAP.**  
+11. **Explicar brevemente el estándar SOAP.**  
    SOAP (Simple Object Access Protocol) es un protocolo basado en XML para intercambiar información estructurada en redes. Es más estricto que REST y define un conjunto de reglas estándar, generalmente usado en sistemas empresariales.
   
-11. **Explicar brevemente el estándar REST Full.**  
+12. **Explicar brevemente el estándar REST Full.**  
    REST (Representational State Transfer) es un estilo arquitectónico para desarrollar servicios web. Utiliza verbos HTTP (GET, POST, PUT, DELETE), URL para identificar recursos, y formatos como JSON o XML para enviar datos.
   
-12. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
+13. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
    - Los headers son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
    - **Content-Type** especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
 ---
