@@ -42,7 +42,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    
    Un servidor HTTP es un software o sistema que procesa solicitudes HTTP (protocolo utilizado para transferir información en la web) y envía respuestas al cliente, como un navegador web. Su función principal es servir contenido, como páginas HTML, archivos o datos en formato JSON.
 
-3. **¿Qué son los verbos HTTP?**
+2. **¿Qué son los verbos HTTP?**
 
    Los verbos HTTP (o métodos) son acciones que se pueden realizar sobre un recurso. Los más conocidos son:
    - **GET:** Solicitar datos del servidor.
@@ -51,18 +51,20 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - **DELETE:** Eliminar recursos.
    - **PATCH:** Actualizar parcialmente un recurso
 
-5. **¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
+3. **¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**
 
    - **Request:** Es la solicitud que un cliente (por ejemplo, un navegador) envía al servidor, incluyendo método HTTP, URL y headers. 
    - **Response:** Es la respuesta del servidor que incluye un código de estado, headers y, opcionalmente, datos en el cuerpo.
    - **Headers:** Son metadatos que acompañan a las solicitudes y respuestas HTTP, proporcionando información como el formato del contenido o la autenticación requerida.
 
-7. **¿Qué es un queryString? (En el contexto de una URL)**  
+4. **¿Qué es un queryString? (En el contexto de una URL)**
+
    Un queryString es la parte de la URL que contiene parámetros para enviar datos al servidor. Se encuentra después del signo ? y consiste en pares clave-valor separados por &.
    **Ejemplo:** https://example.com/search?query=libros&categoria=ficcion
    
 
-8. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
+5. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**
+
   Es el código de estado que devuelve un servidor indicando el resultado de la solicitud. Ejemplos:
    - **200**: Éxito.
    - **404**: Recurso no encontrado.
@@ -70,20 +72,27 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - **301**: Redirección permanente.
    - **401**: No autorizado.
   
-9. **¿Cómo se envía la data en un GET y cómo en un POST?**  
+6. **¿Cómo se envía la data en un GET y cómo en un POST?**
+
    - **GET**: Los datos se envían como parte de la URL, generalmente en el queryString. 
    - **POST**: Los datos se envían en el cuerpo de la solicitud, lo que permite mayor seguridad y soporte para grandes volúmenes de datos.
   
-10. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**  
+7. **¿Qué verbo HTTP utiliza el navegador cuando accedemos a una página?**
+
    El navegador utiliza el verbo **GET**.
   
 11. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
    - **JSON**: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
      Ejemplo:
+     ```json
+   {
+       "nombre": "Juan",
+        "edad": 30,
+        "activo": true
+   }
+   ```
      {
-  "nombre": "Juan",
-  "edad": 30,
-  "activo": true
+  
 }
       
    - **XML**: Es un formato más rígido y estructurado para datos que utiliza etiquetas <></>.
