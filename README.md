@@ -1,5 +1,5 @@
 # Trabajo Práctico - ProContacto
-Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación del ambiente, preguntas teóricas, ejercicios prácticos con herramientas como: Postman, Salesforce y otros conceptos relacionados.
+Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación de entornos, preguntas teóricas, ejercicios prácticos con herramientas como: Postman, Salesforce y otros conceptos relacionados.
 
 ## Tabla de contenidos
 
