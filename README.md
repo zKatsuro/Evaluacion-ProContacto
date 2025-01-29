@@ -1,9 +1,9 @@
 # Trabajo Práctico - ProContacto
 Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación del ambiente, preguntas teóricas, ejercicios prácticos con herramientas como: Postman, Salesforce y otros conceptos relacionados.
 
-## Tabla de Contenidos
+## Tabla de contenidos
 
-1. [Ejercicio 1: Instalación del Ambiente](#ejercicio-1-instalación-del-ambiente)
+1. [Ejercicio 1: Instalación del entorno](#ejercicio-1-instalación-del-ambiente)
 2. [Ejercicio 2: Preguntas sobre el protocolo HTTP](#ejercicio-2-preguntas-sobre-el-protocolo-http)
 3. [Ejercicio 3: Uso de Postman](#ejercicio-3-uso-de-postman)
 4. [Ejercicio 4: Trailhead](#ejercicio-4-trailhead)
@@ -14,7 +14,7 @@ Este repositorio contiene las resoluciones del trabajo práctico asignado. Se in
 
 ## Ejercicio 1: Instalación del Ambiente
 
-Para este ejercicio, se realizaron las siguientes instalaciones requeridas para el desarrollo del trabajo práctico:
+Para este ejercicio, se realizaron las siguientes instalaciones necesarias para el desarrollo del trabajo práctico:
 
 ### Herramientas Instaladas
 1. **Visual Studio Code**  
