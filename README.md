@@ -1,8 +1,6 @@
 # Trabajo Práctico - ProContacto
 Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación del ambiente, preguntas teóricas, ejercicios prácticos con herramientas como: Postman, Salesforce y otros conceptos relacionados.
 
----
-
 ## Tabla de Contenidos
 
 1. [Ejercicio 1: Instalación del Ambiente](#ejercicio-1-instalación-del-ambiente)
@@ -13,7 +11,6 @@ Este repositorio contiene las resoluciones del trabajo práctico asignado. Se in
 6. [Ejercicio 6: Salesforce y conceptos relacionados](#ejercicio-6-salesforce-y-conceptos-relacionados)
 7. [Ejercicio 7: Importación de datos con DataLoader](#ejercicio-7-importación-de-datos-con-dataloader)
 
----
 
 ## Ejercicio 1: Instalación del Ambiente
 
@@ -46,20 +43,20 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 2. **¿Qué son los verbos HTTP?**  
    Los verbos HTTP (o métodos) son acciones que se pueden realizar sobre un recurso. Los más conocidos son:
-   - GET: Solicitar datos del servidor.
-   - POST: Enviar datos al servidor (crear recursos).
-   - PUT: Actualizar datos existentes.
-   - DELETE: Eliminar recursos.
-   - PATCH: Actualizar parcialmente un recurso
+   - **GET:** Solicitar datos del servidor.
+   - **POST:** Enviar datos al servidor (crear recursos).
+   - **PUT:** Actualizar datos existentes.
+   - **DELETE:** Eliminar recursos.
+   - **PATCH:** Actualizar parcialmente un recurso
 
 3. **¿Qué es un request y un response en una comunicación HTTP? ¿Qué son los headers?**  
-   - Request: Es la solicitud que un cliente (por ejemplo, un navegador) envía al servidor, incluyendo método HTTP, URL y headers. 
-   - Response: Es la respuesta del servidor que incluye un código de estado, headers y, opcionalmente, datos en el cuerpo.
-   - Headers: Son metadatos que acompañan a las solicitudes y respuestas HTTP, proporcionando información como el formato del contenido o la autenticación requerida.
+   - **Request:** Es la solicitud que un cliente (por ejemplo, un navegador) envía al servidor, incluyendo método HTTP, URL y headers. 
+   - **Response:** Es la respuesta del servidor que incluye un código de estado, headers y, opcionalmente, datos en el cuerpo.
+   - **Headers:** Son metadatos que acompañan a las solicitudes y respuestas HTTP, proporcionando información como el formato del contenido o la autenticación requerida.
 
 4. **¿Qué es un queryString? (En el contexto de una URL)**  
    Un queryString es la parte de la URL que contiene parámetros para enviar datos al servidor. Se encuentra después del signo ? y consiste en pares clave-valor separados por &.
-   Ejemplo: https://example.com/search?query=libros&categoria=ficcion
+   **Ejemplo:** https://example.com/search?query=libros&categoria=ficcion
    
 
 5. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**  
@@ -110,12 +107,12 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 ### Resoluciones
 1. **Request GET inicial**  
-   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
+   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
    Screenshot: ![image](https://github.com/user-attachments/assets/ae11d124-c9f3-4d39-9985-e357ed05b222)
 
 
 2. **Request POST**  
-   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
    Body enviado:  
    ```json
    {
@@ -126,13 +123,13 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    Screenshot: ![image](https://github.com/user-attachments/assets/f8e01277-c480-4de7-b118-a93122360e81)
 
 4. **Request GET final** 
-   URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
-   Diferencia observada: El nuevo contacto aparece en los resultados.
+   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+   **Diferencia observada:** El nuevo contacto aparece en los resultados.
    Screenshot:![image](https://github.com/user-attachments/assets/b324692d-bf91-4977-ac54-9bc6bd054d9b)
 
 
 ## Ejercicio 4: Trailhead
-1. Creación de usuario
+**4.1. Creación de usuario**
    - URL: https://trailhead.salesforce.com/
    - Screenshot: ![image](https://github.com/user-attachments/assets/01138d58-5221-4a2e-9b23-d343c405d179)
 
