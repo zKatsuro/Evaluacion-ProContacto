@@ -1,6 +1,5 @@
-![image](https://github.com/user-attachments/assets/05326db2-9ad3-494b-b77b-45c2a88c4b1a)# Trabajo Práctico - Desarrollo de Aplicaciones Web y Móviles
-
-Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación del ambiente, preguntas teóricas, ejercicios prácticos con herramientas como Postman y Salesforce, y otros conceptos relacionados.
+# Trabajo Práctico - ProContacto
+Este repositorio contiene las resoluciones del trabajo práctico asignado. Se incluye la instalación del ambiente, preguntas teóricas, ejercicios prácticos con herramientas como: Postman, Salesforce y otros conceptos relacionados.
 
 ---
 
