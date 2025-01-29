@@ -138,7 +138,8 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
    ```
    Screenshot: ![image](https://github.com/user-attachments/assets/f8e01277-c480-4de7-b118-a93122360e81)
 
-4. **Request GET final** 
+4. **Request GET final**
+
    **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
    **Diferencia observada:** El nuevo contacto aparece en los resultados.
