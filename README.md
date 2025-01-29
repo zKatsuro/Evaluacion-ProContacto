@@ -18,12 +18,12 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
 
 ### Herramientas Instaladas
 1. **Visual Studio Code**  
-   - IDE utilizado para desarrollar aplicaciones web y móviles.  
-   - Soporte para HTML, CSS, C#, Javascript, Node.js, Angular, React, etc.
+- IDE utilizado para desarrollar aplicaciones web y móviles.  
+- Soporte para HTML, CSS, C#, Javascript, Node.js, Angular, React, etc.
 
 2. **Git y Git Bash**  
-   - Control de versiones para gestionar los cambios en los archivos.  
-   - Permite realizar backups automáticos y trabajar desde cualquier lugar con acceso a internet.
+- Control de versiones para gestionar los cambios en los archivos.  
+- Permite realizar backups automáticos y trabajar desde cualquier lugar con acceso a internet.
 
 ### Referencias de instalación
 - [Descargar Visual Studio Code](https://code.visualstudio.com/)
@@ -150,7 +150,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
    Screenshot:
 ![image](https://github.com/user-attachments/assets/b324692d-bf91-4977-ac54-9bc6bd054d9b)
 
-
+---
 ## Ejercicio 4: Trailhead
 **1. Creación de usuario**
    - URL: https://trailhead.salesforce.com/
@@ -160,7 +160,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
 **2. Cambio de idioma a ingles:** 
 ![image](https://github.com/user-attachments/assets/0193f7b8-6d68-48ee-91a7-c3c33967a23d)
 
-
+---
 ## Ejercicio 5: Objetos de Salesforce
 **1. Lead**
    
@@ -298,8 +298,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
 
 ![Relaciones entre objetos Salesforce](https://github.com/user-attachments/assets/7ad71001-8e37-4a46-9c9b-368a385d9303)
 
-
-
+---
 ## Ejercicio 6: Salesforce y conceptos relacionados
 
 ### Soluciones Salesforce
@@ -446,7 +445,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
 
    No, Salesforce es un CRM, pero se puede integrar con ERPs para gestionar procesos complementarios.
 
-
+---
 ## Ejercicio 7: Importación de datos con DataLoader
    ### Importación
    **1. Instalación de DataLoader:** [URL](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/loader_install_mac.htm)
