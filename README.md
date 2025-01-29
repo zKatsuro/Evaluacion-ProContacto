@@ -451,7 +451,7 @@ Screenshot:
    ### Importación
    **1. Instalación de DataLoader:** [URL](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/loader_install_mac.htm)
    
-   **2. Adaptación del archivo a subir:** Se deben revisar los formatos de la data a cargarse, ejemplos: formato de date que coincidad con sf, cantidad de caracteres, si las picklist son restricted, columnas sin header, etc.
+   **2. Adaptación del archivo a subir:** Se deben revisar los formatos de los datos a cargarse, por ejemplo: que el formato de las fechas coincida con el de Salesforce, la cantidad de caracteres, si las picklists son restringidas, columnas sin encabezado, etc..
 
    Referencia: https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/supported_data_types.htm
 
@@ -463,11 +463,11 @@ Screenshot:
    
 ![image](https://github.com/user-attachments/assets/482a48d0-ab6b-4e07-9c98-9992f3bf0823)
 
-   **5. Seleccionamos el objeto en el cual cargaramos los registros asi como el archivo a importar:**
+   **5. Seleccionamos el objeto en el cual cargaremos los registros, así como el archivo a importar:**
    
 ![image](https://github.com/user-attachments/assets/ee6d0634-f388-4cc5-b923-f529681202d0)
 
-   **6. Omitimos en este caso para relacionar los lookup**
+   **6. Omitimos este paso para relacionar los lookup.**
    
 ![image](https://github.com/user-attachments/assets/95ded01b-d5b1-4717-926d-affd118a2b5a)
 
@@ -477,12 +477,12 @@ Screenshot:
 ![image](https://github.com/user-attachments/assets/89253844-a3c7-4809-85fc-47d01e403c50)
 ![image](https://github.com/user-attachments/assets/a8331f6e-a429-48c1-9da6-d8fa1cd5d43c)
 
-   **8. Elegimos donde guardar los archivos con los resultados de la importación**
+   **8. Elegimos la ubicación donde guardar los archivos con los resultados de la importación.**
    
 ![image](https://github.com/user-attachments/assets/d0e33a92-6f40-4af6-8684-8989a3df2a0c)
 ![image](https://github.com/user-attachments/assets/3b6e75a1-d2db-460c-8ab1-ff3dcbc2285c)
 
    ### List View 
-   **1.** Creamos el list view con los filters necesarios, en este caso utilizamos "Created Date" equals TODAY y añadimos los fields a mostrar (omitimos webside y owner ya que estaban vacios en el archivo a cargar y el limite de fields a mostrar en list view es de 15):
+   **1.** Creamos el List View con los filtros necesarios. En este caso, utilizamos 'Created Date' igual a 'TODAY' y añadimos los campos a mostrar. Omitimos 'Website' y 'Owner' ya que estaban vacíos en el archivo a cargar, y el límite de campos a mostrar en el List View es de 15.:
 
 ![image](https://github.com/user-attachments/assets/2b7edbc0-0416-4bd3-8af6-a7b75720e3da)
