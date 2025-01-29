@@ -471,7 +471,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 ![image](https://github.com/user-attachments/assets/89253844-a3c7-4809-85fc-47d01e403c50)
 ![image](https://github.com/user-attachments/assets/a8331f6e-a429-48c1-9da6-d8fa1cd5d43c)
 
-   **8. Elegimos donde guardar el estado de la importación**
+   **8. Elegimos donde guardar los archivos con los resultados de la importación**
    
 ![image](https://github.com/user-attachments/assets/d0e33a92-6f40-4af6-8684-8989a3df2a0c)
 ![image](https://github.com/user-attachments/assets/3b6e75a1-d2db-460c-8ab1-ff3dcbc2285c)
