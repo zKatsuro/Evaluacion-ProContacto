@@ -124,31 +124,31 @@ REST (Representational State Transfer) es un estilo arquitectónico para desarro
    - [Descargar Postman](https://www.postman.com/downloads/).![image](https://github.com/user-attachments/assets/747d6a06-c080-419a-adb4-7e57bb445271)
 
 ### Resoluciones
-1. **Request GET inicial**  
-   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
-   Screenshot: ![image](https://github.com/user-attachments/assets/ae11d124-c9f3-4d39-9985-e357ed05b222)
+**1. Request GET inicial**  
+**URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json  
+Screenshot: ![image](https://github.com/user-attachments/assets/ae11d124-c9f3-4d39-9985-e357ed05b222)
 
 
-2. **Request POST**  
-   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+**2. Request POST**  
+**URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
-   Body enviado:  
+Body enviado:  
    ```json
    {
        "name": "Federico",
        "email": "Federico.Gomez@procontacto.com.mx"
    }
    ```
-   Screenshot:
+Screenshot:
 ![image](https://github.com/user-attachments/assets/f8e01277-c480-4de7-b118-a93122360e81)
 
-4. **Request GET final**
+**4. Request GET final**
 
-   **URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+**URL:** https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 
-   **Diferencia observada:** El nuevo contacto aparece en los resultados.
+**Diferencia observada:** El nuevo contacto aparece en los resultados.
 
-   Screenshot:
+Screenshot:
 ![image](https://github.com/user-attachments/assets/b324692d-bf91-4977-ac54-9bc6bd054d9b)
 
 ---
