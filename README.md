@@ -3,7 +3,7 @@ Este repositorio contiene las resoluciones del trabajo práctico asignado. Se in
 
 ## Tabla de contenidos
 
-1. [Ejercicio 1: Instalación del entorno](#ejercicio-1-instalación-del-ambiente)
+1. [Ejercicio 1: Instalación del entorno](#ejercicio-1-instalación-del-entorno)
 2. [Ejercicio 2: Preguntas sobre el protocolo HTTP](#ejercicio-2-preguntas-sobre-el-protocolo-http)
 3. [Ejercicio 3: Uso de Postman](#ejercicio-3-uso-de-postman)
 4. [Ejercicio 4: Trailhead](#ejercicio-4-trailhead)
@@ -12,7 +12,7 @@ Este repositorio contiene las resoluciones del trabajo práctico asignado. Se in
 7. [Ejercicio 7: Importación de datos con DataLoader](#ejercicio-7-importación-de-datos-con-dataloader)
 
 
-## Ejercicio 1: Instalación del Ambiente
+## Ejercicio 1: Instalación del entorno
 
 Para este ejercicio, se realizaron las siguientes instalaciones necesarias para el desarrollo del trabajo práctico:
 
