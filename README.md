@@ -137,7 +137,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
 
 ## Ejercicio 5: Objetos de Salesforce
-1. **Lead**
+**5.1. Lead**
    
    **Concepto:** Un Lead representa un posible cliente o prospecto interesado en los productos o servicios de una empresa. Es el primer paso en el ciclo de ventas.
    
@@ -150,7 +150,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
    **Relaciones:** Un Lead puede convertirse en una Account, Contact y Opportunity mediante el proceso de conversión.
 
-3. **Account**
+**5.2. Account**
    
    **Concepto:** Una Account representa una organización o empresa con la que la empresa tiene o puede tener una relación comercial.
    
@@ -166,7 +166,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Una Account puede estar relacionada con varias Opportunities.
    - Puede tener Assets y Cases asociados.
   
-4. **Contact**
+**5.3. Contact**
    
    **Concepto:** Un Contact representa a una persona vinculada a una Account con la que la empresa tiene una relación.
    
@@ -181,7 +181,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Un Contact está vinculado a una Account.
    - Puede estar relacionado con Cases y Opportunities.
 
-5. **Opportunity**
+**5.4. Opportunity**
    
    **Concepto:** Una Opportunity representa un posible negocio o venta en curso.
    
@@ -197,7 +197,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Puede tener Products relacionados.
    - Puede generar Quotes.
 
-6. **Product**
+**5.5. Product**
    
    **Concepto:** Un Product representa un bien o servicio que la empresa ofrece a sus clientes.
    
@@ -211,7 +211,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Los Products se incluyen en PriceBooks.
    - Se relacionan con Opportunities mediante OpportunityLineItems.
 
-7. **PriceBook**
+**5.6. PriceBook**
    
    **Concepto:** Un PriceBook es un conjunto de precios para un grupo de Products.
    
@@ -224,7 +224,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Contiene Products con precios específicos.
    - Asociado a Opportunities a través de los OpportunityLineItems.
 
-8. **Quote**
+**5.7. Quote**
    
    **Concepto:** Un Quote representa una propuesta de precios que se envía a un cliente potencial.
    
@@ -235,7 +235,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
    **Relaciones:** Asociado a una Opportunity.
 
-9. **Asset**
+**5.8. Asset**
    
    **Concepto:** Un Asset representa un producto adquirido por un cliente.
    
@@ -246,7 +246,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
    **Relaciones:** Relacionado con Accounts y Cases.
 
-10. **Case**
+**5.9. Case**
    
    **Concepto:** Un Case representa un problema o solicitud del cliente.
    
@@ -258,7 +258,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
    **Relaciones:** Asociado a Accounts y Contacts.
 
-11. **Article**
+**5.10. Article**
    
    **Concepto:** Un Article es una pieza de conocimiento utilizada para responder preguntas o resolver problemas.
    
@@ -270,6 +270,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    **Relaciones:** No tiene relaciones directas con los demás objetos enumerados.
 
 **Diagrama de Drawio:**
+
 ![Relaciones entre objetos Salesforce](https://github.com/user-attachments/assets/7ad71001-8e37-4a46-9c9b-368a385d9303)
 
 
@@ -277,144 +278,144 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 ## Ejercicio 6: Salesforce y conceptos relacionados
 
 ### Soluciones Salesforce
-A. ¿Qué es Salesforce?  
+**6.A. ¿Qué es Salesforce?**
    Es un CRM que funciona en la nube. Es una herramienta que te ayuda a gestionar clientes, ventas, soporte y más, todo desde un solo lugar. Es muy popular porque se adapta a muchas industrias, tiene diversas funciones y permite una amplia personalización.
 
-B. ¿Qué es Sales Cloud?
+**6.B. ¿Qué es Sales Cloud?**
    Es la parte de Salesforce que está enfocada en ventas. Permite llevar un control de los clientes potenciales, oportunidades, cuentas y todo lo relacionado con cerrar negocios.
 
-C. ¿Qué es Service Cloud?
+**6.C. ¿Qué es Service Cloud?**
    Es una solución diseñada para el servicio al cliente. Con ella se pueden gestionar casos, hacer seguimiento de problemas, ofrecer soporte en varios canales y asegurar la satisfacción de los clientes.
 
-D. ¿Qué es Health Cloud?
+**6.D. ¿Qué es Health Cloud?**
    Es una versión de Salesforce pensada para el sector de la salud. Ayuda a los profesionales a gestionar pacientes, coordinar atención médica y mantener todo organizado.
 
-E. ¿Qué es Marketing Cloud?
+**6.E. ¿Qué es Marketing Cloud?**
    Es una solución de automatización de marketing que ayuda a crear campañas personalizadas, enviar correos electrónicos masivos, gestionar redes sociales y analizar el impacto de las acciones de marketing.
 
 ### Funcionalidades de Salesforce
-A. ¿Qué es un RecordType?
+**A. ¿Qué es un RecordType?**
    Es una funcionalidad que permite diferenciar tipos de registros dentro de un mismo objeto para manejar distintas vistas, layouts y procesos de negocio.
 
-B. ¿Qué es un ReportType?
+**B. ¿Qué es un ReportType?**
    Es la plantilla que define qué objetos y relaciones están disponibles para crear un informe en Salesforce.
 
-C. ¿Qué es un Page Layout?
+**C. ¿Qué es un Page Layout?**
    Es la configuración que define qué campos, botones y secciones son visibles para los usuarios en la interfaz de un registro.
 
-D. ¿Qué es un Compact Layout?
+**D. ¿Qué es un Compact Layout?**
    Es una versión resumida del Page Layout que define los campos visibles en vistas compactas como la aplicación móvil o resúmenes rápidos.
 
-E. ¿Qué es un Perfil?
+**E. ¿Qué es un Perfil?**
    Define los permisos y accesos de un usuario, como objetos, campos, aplicaciones y pestañas.
 
-F. ¿Qué es un Rol?
+**F. ¿Qué es un Rol?**
    Es una jerarquía que define la visibilidad de datos en función de la estructura organizacional.
 
-G. ¿Qué es un Validation Rule?
+**G. ¿Qué es un Validation Rule?**
    Es una regla que verifica si los datos ingresados cumplen ciertos criterios antes de guardar un registro.
 
-H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?
+**H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?**
    - Master Detail: Relación estrecha donde el registro hijo depende completamente del padre. Si el padre se elimina, el hijo también.
    - Lookup: Relación más flexible y opcional. Los registros hijo pueden existir sin un padre.
 
-I. ¿Qué es un Sandbox?
+**I. ¿Qué es un Sandbox?**
    Es un entorno aislado que permite realizar pruebas y desarrollo sin afectar los datos en producción.
 
-J. ¿Qué es un ChangeSet?
+**J. ¿Qué es un ChangeSet?**
    Es una herramienta para migrar cambios configurados en Salesforce (como objetos, campos o reglas) de un entorno a otro.
 
-K. ¿Para qué sirve el import Wizard de Salesforce?
+**K. ¿Para qué sirve el import Wizard de Salesforce?**
    Permite importar datos (como cuentas, contactos o leads) de forma sencilla a través de un asistente.
 
-L. ¿Para qué sirve la funcionalidad Web to Lead?
+**L. ¿Para qué sirve la funcionalidad Web to Lead?**
    Crea leads automáticamente en Salesforce a partir de formularios en línea.
 
-M. ¿Para qué sirve la funcionalidad Web to Case?
+**M. ¿Para qué sirve la funcionalidad Web to Case?**
    Genera casos de soporte automáticamente desde formularios web enviados por los clientes.
 
-N. ¿Para qué sirve la funcionalidad Omnichannel?
+**N. ¿Para qué sirve la funcionalidad Omnichannel?**
    Permite distribuir automáticamente trabajos o casos entre los agentes disponibles en múltiples canales (chat, email, teléfono, etc.).
 
-O. ¿Para qué sirve la funcionalidad Chatter?
+**O. ¿Para qué sirve la funcionalidad Chatter?**
    Es una herramienta de colaboración interna que permite a los usuarios interactuar, compartir archivos y trabajar en equipo.
 
 ### Conceptos Generales
-A. ¿Qué significa SaaS?
+**A. ¿Qué significa SaaS?**
    "Software as a Service": Modelo donde el software se proporciona a través de internet como un servicio, sin necesidad de instalación local.
 
-B. ¿Salesforce es SaaS?
+**B. ¿Salesforce es SaaS?**
    Sí, Salesforce opera bajo el modelo SaaS, proporcionando sus servicios en la nube.
 
-C. ¿Qué significa que una solución sea Cloud?
+**C. ¿Qué significa que una solución sea Cloud?**
    Significa que opera en servidores remotos accesibles a través de internet, en lugar de estar instalado localmente.
 
-D. ¿Qué significa que una solución sea On-Premise?
+**D. ¿Qué significa que una solución sea On-Premise?**
    Implica que el software se instala y opera en servidores locales dentro de la organización.
 
-E. ¿Qué es un pipeline de ventas?
+**E. ¿Qué es un pipeline de ventas?**
    Es el conjunto de etapas que atraviesa un cliente potencial desde el primer contacto hasta el cierre de la venta.
 
-F. ¿Qué es un funnel de ventas?
+**F. ¿Qué es un funnel de ventas?**
    Es una representación visual que muestra cómo los prospectos pasan por diferentes fases del proceso de ventas.
 
-G. ¿Qué significa Customer Experience?
+**G. ¿Qué significa Customer Experience?**
    Es la percepción general del cliente sobre su interacción con una empresa, abarcando todos los puntos de contacto.
 
-H. ¿Qué significa omnicanalidad?
+**H. ¿Qué significa omnicanalidad?**
    Es la capacidad de integrar y coordinar múltiples canales de comunicación para ofrecer una experiencia uniforme al cliente.
 
-I. ¿Qué significa que un negocio sea B2B? ¿Qué significa que un negocio sea B2C?
+**I. ¿Qué significa que un negocio sea B2B? ¿Qué significa que un negocio sea B2C?**
    - B2B (Business to Business): Una empresa vende a otras empresas.
    - B2C (Business to Consumer): Una empresa vende directamente a consumidores finales.
 
-J. ¿Qué es un KPI?
+**J. ¿Qué es un KPI?**
    "Key Performance Indicator": Indicador clave de rendimiento que mide el éxito de una acción o estrategia.
 
-K. ¿Qué es una API y en qué se diferencia de una Rest API?
+**K. ¿Qué es una API y en qué se diferencia de una Rest API?**
    - API: Interfaz de Programación de Aplicaciones, permite que diferentes sistemas se comuniquen entre sí.
    - REST API: Tipo de API que sigue el estilo arquitectónico REST, utilizando HTTP y recursos representados como URLs.
 
-L. ¿Qué es un Proceso Batch?
+**L. ¿Qué es un Proceso Batch?**
    Es un proceso que ejecuta operaciones en grandes volúmenes de datos en segundo plano, generalmente de forma programada.
 
-M. ¿Qué es Kanban?
+**M. ¿Qué es Kanban?**
    Es un sistema visual de gestión de tareas que organiza el trabajo en columnas (como "Pendiente", "En Proceso", "Completado").
 
-N. ¿Qué es un ERP?
+**N. ¿Qué es un ERP?**
    "Enterprise Resource Planning": Software que gestiona procesos centrales de una empresa como finanzas, inventario y recursos humanos.
 
-O. ¿Salesforce es un ERP?
+**O. ¿Salesforce es un ERP?**
    No, Salesforce es un CRM, pero se puede integrar con ERPs para gestionar procesos complementarios.
 
 
 ## Ejercicio 7: Importación de datos con DataLoader
    ### Importación
-   1. Instalación de DataLoader: [URL](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/loader_install_mac.htm)
+   **1. Instalación de DataLoader:** [URL](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/loader_install_mac.htm)
    
-   2. Adaptación del archivo a subir: Se deben revisar los formatos de la data a subirse, ejemplos: date, cantidad de caracteres, si las picklist son restricted, columnas sin header, etc.
+   **2. Adaptación del archivo a subir:** Se deben revisar los formatos de la data a subirse, ejemplos: date, cantidad de caracteres, si las picklist son restricted, columnas sin header, etc.
 
-   3. Abrir DataLoader
+   **3. Abrir DataLoader**
       ![image](https://github.com/user-attachments/assets/d7c935f5-1c72-48ae-9347-19cc7750a9f7)
 
-   4. Autenticar org:
+   **4. Autenticar org:**
       ![image](https://github.com/user-attachments/assets/482a48d0-ab6b-4e07-9c98-9992f3bf0823)
 
-   5. Seleccionamos el objeto en el cual cargaramos los registros asi como el archivo a importar:
+   **5. Seleccionamos el objeto en el cual cargaramos los registros asi como el archivo a importar:**
       ![image](https://github.com/user-attachments/assets/ee6d0634-f388-4cc5-b923-f529681202d0)
 
-   6. Omitimos en este caso para relacionar los lookup
+   **6. Omitimos en este caso para relacionar los lookup**
       ![image](https://github.com/user-attachments/assets/95ded01b-d5b1-4717-926d-affd118a2b5a)
 
-   7. Creamos un mapeo de fields
+   **7. Creamos un mapeo de fields**
       ![image](https://github.com/user-attachments/assets/c09aab17-6c8b-42c1-ba5a-53959bf6f18d)
       ![image](https://github.com/user-attachments/assets/89253844-a3c7-4809-85fc-47d01e403c50)
       ![image](https://github.com/user-attachments/assets/a8331f6e-a429-48c1-9da6-d8fa1cd5d43c)
 
-   8. Elegimos donde guardar el estado de la importación
+   **8. Elegimos donde guardar el estado de la importación**
       ![image](https://github.com/user-attachments/assets/d0e33a92-6f40-4af6-8684-8989a3df2a0c)
       ![image](https://github.com/user-attachments/assets/3b6e75a1-d2db-460c-8ab1-ff3dcbc2285c)
 
    ### List View 
-   1. Creamos el list view con los filters necesarios, en este caso utilizamos "Created Date" equals TODAY y añadimos los fields a mostrar (omitimos webside y owner ya que estaban vacios en el archivo a cargar y el limite de fields a mostrar en list view es de 15):
+   **1.** Creamos el list view con los filters necesarios, en este caso utilizamos "Created Date" equals TODAY y añadimos los fields a mostrar (omitimos webside y owner ya que estaban vacios en el archivo a cargar y el limite de fields a mostrar en list view es de 15):
       ![image](https://github.com/user-attachments/assets/2b7edbc0-0416-4bd3-8af6-a7b75720e3da)
