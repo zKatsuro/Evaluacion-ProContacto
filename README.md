@@ -272,3 +272,127 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - Categoría
 
    **Relaciones:** No tiene relaciones directas con los demás objetos enumerados.
+
+**Diagrama de Drawio:**
+![Relaciones entre objetos Salesforce](https://github.com/user-attachments/assets/7ad71001-8e37-4a46-9c9b-368a385d9303)
+
+
+
+## Ejercicio 6: Salesforce y conceptos relacionados
+
+### Soluciones Salesforce
+A. ¿Qué es Salesforce?  
+   Es un CRM que funciona en la nube. Es una herramienta que te ayuda a gestionar clientes, ventas, soporte y más, todo desde un solo lugar. Es muy popular porque se adapta a muchas industrias, tiene diversas funciones y permite una amplia personalización.
+
+B. ¿Qué es Sales Cloud?
+   Es la parte de Salesforce que está enfocada en ventas. Permite llevar un control de los clientes potenciales, oportunidades, cuentas y todo lo relacionado con cerrar negocios.
+
+C. ¿Qué es Service Cloud?
+   Es una solución diseñada para el servicio al cliente. Con ella se pueden gestionar casos, hacer seguimiento de problemas, ofrecer soporte en varios canales y asegurar la satisfacción de los clientes.
+
+D. ¿Qué es Health Cloud?
+   Es una versión de Salesforce pensada para el sector de la salud. Ayuda a los profesionales a gestionar pacientes, coordinar atención médica y mantener todo organizado.
+
+E. ¿Qué es Marketing Cloud?
+   Es una solución de automatización de marketing que ayuda a crear campañas personalizadas, enviar correos electrónicos masivos, gestionar redes sociales y analizar el impacto de las acciones de marketing.
+
+### Funcionalidades de Salesforce
+A. ¿Qué es un RecordType?
+   Es una funcionalidad que permite diferenciar tipos de registros dentro de un mismo objeto para manejar distintas vistas, layouts y procesos de negocio.
+
+B. ¿Qué es un ReportType?
+   Es la plantilla que define qué objetos y relaciones están disponibles para crear un informe en Salesforce.
+
+C. ¿Qué es un Page Layout?
+   Es la configuración que define qué campos, botones y secciones son visibles para los usuarios en la interfaz de un registro.
+
+D. ¿Qué es un Compact Layout?
+   Es una versión resumida del Page Layout que define los campos visibles en vistas compactas como la aplicación móvil o resúmenes rápidos.
+
+E. ¿Qué es un Perfil?
+   Define los permisos y accesos de un usuario, como objetos, campos, aplicaciones y pestañas.
+
+F. ¿Qué es un Rol?
+   Es una jerarquía que define la visibilidad de datos en función de la estructura organizacional.
+
+G. ¿Qué es un Validation Rule?
+   Es una regla que verifica si los datos ingresados cumplen ciertos criterios antes de guardar un registro.
+
+H. ¿Qué diferencia hay entre una relación Master Detail y Lookup?
+   - Master Detail: Relación estrecha donde el registro hijo depende completamente del padre. Si el padre se elimina, el hijo también.
+   - Lookup: Relación más flexible y opcional. Los registros hijo pueden existir sin un padre.
+
+I. ¿Qué es un Sandbox?
+   Es un entorno aislado que permite realizar pruebas y desarrollo sin afectar los datos en producción.
+
+J. ¿Qué es un ChangeSet?
+   Es una herramienta para migrar cambios configurados en Salesforce (como objetos, campos o reglas) de un entorno a otro.
+
+K. ¿Para qué sirve el import Wizard de Salesforce?
+   Permite importar datos (como cuentas, contactos o leads) de forma sencilla a través de un asistente.
+
+L. ¿Para qué sirve la funcionalidad Web to Lead?
+   Crea leads automáticamente en Salesforce a partir de formularios en línea.
+
+M. ¿Para qué sirve la funcionalidad Web to Case?
+   Genera casos de soporte automáticamente desde formularios web enviados por los clientes.
+
+N. ¿Para qué sirve la funcionalidad Omnichannel?
+   Permite distribuir automáticamente trabajos o casos entre los agentes disponibles en múltiples canales (chat, email, teléfono, etc.).
+
+O. ¿Para qué sirve la funcionalidad Chatter?
+   Es una herramienta de colaboración interna que permite a los usuarios interactuar, compartir archivos y trabajar en equipo.
+
+### Conceptos Generales
+A. ¿Qué significa SaaS?
+   "Software as a Service": Modelo donde el software se proporciona a través de internet como un servicio, sin necesidad de instalación local.
+
+B. ¿Salesforce es SaaS?
+   Sí, Salesforce opera bajo el modelo SaaS, proporcionando sus servicios en la nube.
+
+C. ¿Qué significa que una solución sea Cloud?
+   Significa que opera en servidores remotos accesibles a través de internet, en lugar de estar instalado localmente.
+
+D. ¿Qué significa que una solución sea On-Premise?
+   Implica que el software se instala y opera en servidores locales dentro de la organización.
+
+E. ¿Qué es un pipeline de ventas?
+   Es el conjunto de etapas que atraviesa un cliente potencial desde el primer contacto hasta el cierre de la venta.
+
+F. ¿Qué es un funnel de ventas?
+   Es una representación visual que muestra cómo los prospectos pasan por diferentes fases del proceso de ventas.
+
+G. ¿Qué significa Customer Experience?
+   Es la percepción general del cliente sobre su interacción con una empresa, abarcando todos los puntos de contacto.
+
+H. ¿Qué significa omnicanalidad?
+   Es la capacidad de integrar y coordinar múltiples canales de comunicación para ofrecer una experiencia uniforme al cliente.
+
+I. ¿Qué significa que un negocio sea B2B? ¿Qué significa que un negocio sea B2C?
+   - B2B (Business to Business): Una empresa vende a otras empresas.
+   - B2C (Business to Consumer): Una empresa vende directamente a consumidores finales.
+
+J. ¿Qué es un KPI?
+   "Key Performance Indicator": Indicador clave de rendimiento que mide el éxito de una acción o estrategia.
+
+K. ¿Qué es una API y en qué se diferencia de una Rest API?
+   - API: Interfaz de Programación de Aplicaciones, permite que diferentes sistemas se comuniquen entre sí.
+   - REST API: Tipo de API que sigue el estilo arquitectónico REST, utilizando HTTP y recursos representados como URLs.
+
+L. ¿Qué es un Proceso Batch?
+   Es un proceso que ejecuta operaciones en grandes volúmenes de datos en segundo plano, generalmente de forma programada.
+
+M. ¿Qué es Kanban?
+   Es un sistema visual de gestión de tareas que organiza el trabajo en columnas (como "Pendiente", "En Proceso", "Completado").
+
+N. ¿Qué es un ERP?
+   "Enterprise Resource Planning": Software que gestiona procesos centrales de una empresa como finanzas, inventario y recursos humanos.
+
+O. ¿Salesforce es un ERP?
+   No, Salesforce es un CRM, pero se puede integrar con ERPs para gestionar procesos complementarios.
+
+
+## Ejercicio 7: Importación de datos con DataLoader
+   1. Instalación de DataLoader: [URL](https://developer.salesforce.com/docs/atlas.en-us.dataLoader.meta/dataLoader/loader_install_mac.htm)
+   
+   2. Adaptación del archivo a subir: [Uploading Plantilla - importación - RRHH.xlsx - Cuenta.csv…]()
