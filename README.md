@@ -60,12 +60,13 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
 4. **¿Qué es un queryString? (En el contexto de una URL)**
 
    Un queryString es la parte de la URL que contiene parámetros para enviar datos al servidor. Se encuentra después del signo ? y consiste en pares clave-valor separados por &.
+
    **Ejemplo:** https://example.com/search?query=libros&categoria=ficcion
    
 
-5. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**
+6. **¿Qué es el responseCode? ¿Qué significado tienen los posibles valores devueltos?**
 
-  Es el código de estado que devuelve un servidor indicando el resultado de la solicitud. Ejemplos:
+   Es el código de estado que devuelve un servidor indicando el resultado de la solicitud. Ejemplos:
    - **200**: Éxito.
    - **404**: Recurso no encontrado.
    - **500**: Error interno del servidor.
