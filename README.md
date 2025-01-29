@@ -133,7 +133,7 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
    - URL: https://trailhead.salesforce.com/
    - Screenshot: ![image](https://github.com/user-attachments/assets/01138d58-5221-4a2e-9b23-d343c405d179)
 
-2. Cambio de idioma a ingles: ![image](https://github.com/user-attachments/assets/0193f7b8-6d68-48ee-91a7-c3c33967a23d)
+**4.2. Cambio de idioma a ingles:** ![image](https://github.com/user-attachments/assets/0193f7b8-6d68-48ee-91a7-c3c33967a23d)
 
 
 ## Ejercicio 5: Objetos de Salesforce
