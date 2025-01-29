@@ -81,36 +81,40 @@ Para este ejercicio, se realizaron las siguientes instalaciones requeridas para 
 
    El navegador utiliza el verbo **GET**.
   
-11. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
+8. **Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.**  REVISAR
    - **JSON**: Es un formato ligero basado en texto para estructurar datos. Utiliza llaves {} y pares clave-valor.
      Ejemplo:
-     ```json
+
+   ``` json
    {
        "nombre": "Juan",
-        "edad": 30,
-        "activo": true
+       "edad": 30,
+       "activo": true
    }
    ```
-     {
-  
-}
       
    - **XML**: Es un formato más rígido y estructurado para datos que utiliza etiquetas <></>.
      Ejemplo:
-     <persona>
-  <nombre>Juan</nombre>
-  <edad>30</edad>
-  <activo>true</activo>
-</persona>
 
-11. **Explicar brevemente el estándar SOAP.**  
+     ```xml
+     <persona>
+        <nombre>Juan</nombre>
+        <edad>30</edad>
+        <activo>true</activo>
+     </persona>
+     ```
+
+9. **Explicar brevemente el estándar SOAP.**
+ 
    SOAP (Simple Object Access Protocol) es un protocolo basado en XML para intercambiar información estructurada en redes. Es más estricto que REST y define un conjunto de reglas estándar, generalmente usado en sistemas empresariales.
   
-12. **Explicar brevemente el estándar REST Full.**  
+10. **Explicar brevemente el estándar REST Full.**
+ 
    REST (Representational State Transfer) es un estilo arquitectónico para desarrollar servicios web. Utiliza verbos HTTP (GET, POST, PUT, DELETE), URL para identificar recursos, y formatos como JSON o XML para enviar datos.
   
-13. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**  
-   - Los headers son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
+11. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
+ 
+   - Los **headers** son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
    - **Content-Type** especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
 ---
 
