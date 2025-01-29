@@ -111,13 +111,13 @@ Para este ejercicio, se realizaron las siguientes instalaciones necesarias para 
   
 10. **Explicar brevemente el estándar REST Full.**
  
-   REST (Representational State Transfer) es un estilo arquitectónico para desarrollar servicios web. Utiliza verbos HTTP (GET, POST, PUT, DELETE), URL para identificar recursos, y formatos como JSON o XML para enviar datos.
+    REST (Representational State Transfer) es un estilo arquitectónico para desarrollar servicios web. Utiliza verbos HTTP (GET, POST, PUT, DELETE), URL para identificar recursos, y formatos como JSON o XML para enviar datos.
   
 11. **¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**
  
    - Los **headers** son campos de metadatos en las solicitudes y respuestas HTTP que proporcionan información adicional, como tipo de contenido, autenticación, etc. 
    - **Content-Type** especifica el formato del cuerpo de la solicitud o respuesta (ejemplo: application/json o text/html). Esto permite al cliente/servidor saber cómo interpretar los datos.
----
+
 
 ## Ejercicio 3: Uso de Postman
    - [Descargar Postman](https://www.postman.com/downloads/).![image](https://github.com/user-attachments/assets/747d6a06-c080-419a-adb4-7e57bb445271)
